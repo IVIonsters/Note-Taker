@@ -11,7 +11,9 @@
 
 
 ## Description
-    Note taking application designed to help keep track of thoughts and increase organization
+
+<p> Note taking application designed to help keep track of thoughts and increase organization.</P>
+
 ## Languages
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -24,22 +26,20 @@
 
 ## Features
 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
+* **Auto-Recall:** Application will automatically call notes from storage on application loading.
+* **Hidden / Save Create Buttons:** Buttons are hidden until text has been input into both fields. 
+* **automatic ID Generation:** USES Npm packages to generate unique ID's for each note.
+* **Logging / Debug Integrated:** Application returns specific errors or faults for each section in the event of an error for easier debugging.
 
 ## Usage
 
-* EXPLAIN GENERAL DESIGN USAGE
+* npm install to load all necessary packages if running locally, hosting on port 3001.
 
 * [LIVE PROJECT LINK HERE](https://ivionsters.github.io/IVIonsters-Designs-Blog/)
 
-* [REPO LINK GOES HERE](https://github.com/IVIonsters/IVIonsters-Designs-Blog)
+* [Note-Taker Repository](https://github.com/IVIonsters/Note-Taker)
 
-* ![SCREENSHOTS GO HERE](./assets/refimages/lightmodemain.png)
-* ![SCRENSHOTS HERE](./assets/refimages/lightmodeblog.png)
+* ![SCREENSHOTS GO HERE](./Assets/NoteGIF.gif)
 
 
 ## Credits
