@@ -34,8 +34,9 @@
 ## Usage
 
 * npm install to load all necessary packages if running locally, hosting on port 3001.
+* Node server.js to start if running local.
 
-* [LIVE PROJECT LINK HERE](https://ivionsters.github.io/IVIonsters-Designs-Blog/)
+* [Note-Taker-Live-Via-Render](https://note-taker-ux3z.onrender.com)
 
 * [Note-Taker Repository](https://github.com/IVIonsters/Note-Taker)
 
