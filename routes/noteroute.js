@@ -59,15 +59,15 @@ router.delete('/notes/:id', (req, res) => {
         //Parse the data from the file
         const notes = JSON.parse(data);
         //Filter out the note to delete
-        const newNotesFiltered = notes.filter(note => note.id != req.params.id);
+        const newNotesFiltered = notes.filter((note) => note.id != req.params.id);
         //Write the updated notes array back to the file
-        fs.writeFile('./db/db.json', JSON.stringify(newNotesFiltered), err => {
+        fs.writeFile('./db/db.json', JSON.stringify(newNotesFiltered), (err) => {
             if (err) {
                 console.error(err);
                 return res.status(500).json({ message: 'Error writing notes, Server Error' });
             }
             //Return a message that the note was deleted
-            res.json({ message: 'Note deleted' });
+            return res.json(newNotesFiltered);
         });
     });
 });
